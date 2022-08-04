@@ -1,0 +1,17 @@
+{
+  "name": "unitestingtask",
+  "version": "0.0.1",
+  "description": "Unit testing task",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html"],
+    "moduleDirectories" : ["node_modules"],
+    "modulePaths" : ["<rootDir>"]
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
